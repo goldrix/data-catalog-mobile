@@ -1,0 +1,51 @@
+/* html{
+  position: fixed;
+} */
+
+.mobile{
+  width: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  opacity: 0.5;
+  z-index: 0;
+}
+
+
+.frame{
+  
+  top:5%;
+  /* left: 45%; */
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+.overlapp-top{
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+  
+
+  
+}
+.overlapp-bottom{
+  position: relative;
+  z-index: 0;
+  left:25px;
+  top:25px;
+}
+  
+.particle {
+  /* display: block; */
+
+  position: fixed;
+  
+  z-index: 5;
+  /* background-color: aquamarine; */
+  width: 100%;
+  pointer-events: none;
+
+}
